@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API Sender</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Click below to send a GET request to dummy JSON Placeholder API to fetch all the sample posts</h1>
+	<form method="GET" action="https://jsonplaceholder.typicode.com/posts">
+		<button type="submit">Submit</button>
+	</form>
+	</div>
+	
+
+	<form method="POST" action="https://jsonplaceholder.typicode.com/posts">
+		<h1>Send a POST request to dummy JSON Placeholder API to add a sample post with the params as described in form</h1>
+		<input required type="text" id="title" name="title">
+		<input required type="text" id="body" name="body">
+		<input required type="number" id="userId" name="userId">
+		<button type="submit">Submit</button>
+	</form>
+
+</body>
+</html>
